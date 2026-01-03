@@ -45,7 +45,8 @@ usaball is a **flywheel-based token** that implements a self-reinforcing economi
 ---
 
 ## How It Works
-<img width="1024" height="1024" alt="Gemini_Generated_Image_gi5ip4gi5ip4gi5i" src="https://github.com/user-attachments/assets/8679d5a8-923c-47f1-9e96-ef514eb31a01" />
+<img width="1024" height="1024" alt="Gemini_Generated_Image_swe60bswe60bswe6" src="https://github.com/user-attachments/assets/43d6f152-dd4f-4e31-9086-70f91c6b7712" />
+
 
 ### The Flywheel
 
