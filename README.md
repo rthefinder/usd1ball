@@ -1,6 +1,6 @@
-# usd1ball
+# usaball
 
-CA: 4CcjADwzNdSGLqRttEpAC8sKhDRACQEjWQpAQXq8bonk
+
 <img width="1799" height="598" alt="Capture d’écran 2026-01-03 à 00 58 17" src="https://github.com/user-attachments/assets/3fd79de9-f28d-432f-9c18-f5a5f5cca3f6" />
 
 > **A USD1-based flywheel meme coin with deterministic mechanics on Solana**
@@ -231,7 +231,7 @@ Comprehensive docs in `/docs`:
 - Permissionless execution
 
 **Tax System**
-- 6% tax paid in USD1 (not USD1BALL)
+- 0.1% tax paid in USD1
 - Creates constant buying pressure
 - Accumulates in on-chain pool
 
@@ -471,18 +471,18 @@ git push origin feature/your-feature
 
 ## Community
 
-- **Twitter**: [@USD1BALL](https://twitter.com/usd1ball) (example)
-- **Discord**: [Join Community](https://discord.gg/usd1ball) (example)
-- **GitHub**: [Issues & Discussions](https://github.com/yourusername/usd1ball)
+- **Twitter**: [@rthefinder]([https://twitter.com/rthefinder](https://x.com/rthefinder))
+
+- **GitHub**: [Issues & Discussions](https://github.com/yourusername/usaball)
 
 ---
 
 ## FAQ
 
-**Q: Is USD1BALL a good investment?**  
-A: No. USD1BALL is a meme coin experiment. Not financial advice. High risk.
+**Q: Is usaball a good investment?**  
+A: No. usaball is a meme coin experiment. Not financial advice. High risk.
 
-**Q: How do I buy USD1BALL?**  
+**Q: How do I buy usaball?**  
 A: After deployment, available on Solana DEXs with USD1 pairs.
 
 **Q: What happens to the burned tokens?**  
@@ -526,7 +526,7 @@ Inspired by:
 
 ## Final Notes
 
-USD1BALL is an **experiment in deterministic tokenomics**:
+usaball is an **experiment in deterministic tokenomics**:
 
 ✅ **What it IS:**
 - A meme coin with transparent mechanics
@@ -546,5 +546,5 @@ USD1BALL is an **experiment in deterministic tokenomics**:
 
 **Built with transparency. Driven by determinism. Powered by community.**
 
-**USD1BALL** - Because sometimes the best strategy is a simple, predictable loop.
+**usaball** - Because sometimes the best strategy is a simple, predictable loop.
 <img width="1024" height="1024" alt="Gemini_Generated_Image_qsepfeqsepfeqsep" src="https://github.com/user-attachments/assets/c392d672-b668-4613-93a9-4312eaa9a49a" />
