@@ -1,4 +1,5 @@
-# USD1BALL 🏀
+# usd1ball
+<img width="1799" height="598" alt="Capture d’écran 2026-01-03 à 00 58 17" src="https://github.com/user-attachments/assets/3fd79de9-f28d-432f-9c18-f5a5f5cca3f6" />
 
 > **A USD1-based flywheel meme coin with deterministic mechanics on Solana**
 
@@ -42,6 +43,7 @@ USD1BALL is a **flywheel-based token** that implements a self-reinforcing econom
 ---
 
 ## How It Works
+<img width="1024" height="1024" alt="Gemini_Generated_Image_gi5ip4gi5ip4gi5i" src="https://github.com/user-attachments/assets/8679d5a8-923c-47f1-9e96-ef514eb31a01" />
 
 ### The Flywheel
 
@@ -542,4 +544,5 @@ USD1BALL is an **experiment in deterministic tokenomics**:
 
 **Built with transparency. Driven by determinism. Powered by community.**
 
-🏀 **USD1BALL** - Because sometimes the best strategy is a simple, predictable loop.
+**USD1BALL** - Because sometimes the best strategy is a simple, predictable loop.
+<img width="1024" height="1024" alt="Gemini_Generated_Image_qsepfeqsepfeqsep" src="https://github.com/user-attachments/assets/c392d672-b668-4613-93a9-4312eaa9a49a" />
