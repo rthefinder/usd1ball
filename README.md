@@ -1,4 +1,6 @@
 # usd1ball
+
+CA: 4CcjADwzNdSGLqRttEpAC8sKhDRACQEjWQpAQXq8bonk
 <img width="1799" height="598" alt="Capture d’écran 2026-01-03 à 00 58 17" src="https://github.com/user-attachments/assets/3fd79de9-f28d-432f-9c18-f5a5f5cca3f6" />
 
 > **A USD1-based flywheel meme coin with deterministic mechanics on Solana**
