@@ -23,11 +23,11 @@
 
 ---
 
-## What is USD1BALL?
+## What is usaball?
 
-USD1BALL is a **flywheel-based token** that implements a self-reinforcing economic loop:
+usaball is a **flywheel-based token** that implements a self-reinforcing economic loop:
 
-1. 💸 **Transactions pay a 6% tax in USD1** (not in USD1BALL tokens)
+1. 💸 **Transactions pay a 0.1% tax in USD1** (not in usaball tokens)
 2. 📊 **USD1 accumulates in a buyback pool** automatically
 3. 🎯 **When threshold is reached**, anyone can trigger a buyback
 4. 🔥 **Bought tokens are distributed**: 50% burned, 30% to LP, 20% rewards
@@ -51,7 +51,7 @@ USD1BALL is a **flywheel-based token** that implements a self-reinforcing econom
 
 ```
 ┌─────────────────────────────────────────────┐
-│  1. User transfers USD1BALL                 │
+│  1. User transfers usaball                │
 │     ↓                                       │
 │  2. 6% tax paid in USD1                     │
 │     ↓                                       │
@@ -61,7 +61,7 @@ USD1BALL is a **flywheel-based token** that implements a self-reinforcing econom
 │     ↓                                       │
 │  5. Anyone triggers buyback                 │
 │     ↓                                       │
-│  6. Contract swaps USD1 → USD1BALL          │
+│  6. Contract swaps USD1 → usaball         │
 │     ↓                                       │
 │  7. Distribute bought tokens:               │
 │     • 50% → BURNED 🔥                       │
@@ -84,11 +84,11 @@ USD1BALL is a **flywheel-based token** that implements a self-reinforcing econom
 
 ## Repository Structure
 
-This is a **monorepo** containing all USD1BALL components:
+This is a **monorepo** containing all usaball components:
 
 ```
-usd1ball/
-├── programs/usd1ball/       # Anchor smart contract (Rust)
+usaball/
+├── programs/usaball/       # Anchor smart contract (Rust)
 │   ├── src/
 │   │   ├── lib.rs           # Program entry point
 │   │   ├── state.rs         # Global state & events
@@ -129,8 +129,8 @@ usd1ball/
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/usd1ball.git
-cd usd1ball
+git clone https://github.com/yourusername/usaballl.git
+cd usaball
 
 # Install dependencies
 pnpm install
@@ -142,7 +142,7 @@ pnpm build
 ### Build Smart Contract
 
 ```bash
-cd programs/usd1ball
+cd programs/usaball
 anchor build
 ```
 
@@ -150,7 +150,7 @@ anchor build
 
 ```bash
 # Run Anchor tests
-cd programs/usd1ball
+cd programs/usaball
 anchor test
 
 # Run frontend in dev mode
@@ -165,7 +165,7 @@ pnpm dev
 solana-test-validator
 
 # Deploy to local (in another terminal)
-cd programs/usd1ball
+cd programs/usaball
 anchor deploy --provider.cluster localnet
 
 # Run simulation
@@ -198,7 +198,7 @@ anchor deploy --provider.cluster localnet
 solana config set --url mainnet-beta
 
 # Deploy
-cd programs/usd1ball
+cd programs/usaball
 anchor deploy --provider.cluster mainnet
 
 # CRITICAL: Verify security checklist
@@ -279,7 +279,7 @@ pnpm build
 Environment variables needed:
 ```env
 NEXT_PUBLIC_PROGRAM_ID=<your_program_id>
-NEXT_PUBLIC_USD1BALL_MINT=<mint_address>
+NEXT_PUBLIC_usaball_MINT=<mint_address>
 NEXT_PUBLIC_RPC_ENDPOINT=https://api.devnet.solana.com
 ```
 
@@ -296,7 +296,7 @@ NEXT_PUBLIC_RPC_ENDPOINT=https://api.devnet.solana.com
    - Called once at deployment
 
 2. **`transfer`**
-   - Transfers USD1BALL tokens
+   - Transfers usaballtokens
    - Deducts USD1 tax from sender
    - Routes tax to buyback pool
    - Updates pool balance
@@ -304,7 +304,7 @@ NEXT_PUBLIC_RPC_ENDPOINT=https://api.devnet.solana.com
 3. **`trigger_buyback`**
    - Permissionless (anyone can call)
    - Checks threshold is met
-   - Swaps USD1 for USD1BALL
+   - Swaps USD1 for usaball
    - Distributes: burn, LP, rewards
    - Emits events
 
@@ -335,7 +335,7 @@ All major actions emit events:
 ### Unit Tests
 
 ```bash
-cd programs/usd1ball
+cd programs/usaball
 anchor test
 ```
 
@@ -419,8 +419,8 @@ We welcome contributions! Areas to help:
 
 ```bash
 # Fork and clone
-git clone https://github.com/yourusername/usd1ball.git
-cd usd1ball
+git clone https://github.com/yourusername/usaball.git
+cd usaball
 
 # Create branch
 git checkout -b feature/your-feature
