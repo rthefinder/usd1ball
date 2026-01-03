@@ -1,0 +1,51 @@
+.
+├── apps
+│   └── web
+│       ├── src
+│       ├── next.config.js
+│       ├── package.json
+│       ├── postcss.config.js
+│       ├── tailwind.config.js
+│       └── tsconfig.json
+├── docs
+│   ├── DEPLOYMENT.md
+│   ├── SECURITY.md
+│   └── TOKENOMICS.md
+├── packages
+│   ├── analytics
+│   │   ├── src
+│   │   ├── package.json
+│   │   └── tsconfig.json
+│   └── shared
+│       ├── src
+│       ├── package.json
+│       └── tsconfig.json
+├── programs
+│   └── usd1ball
+│       ├── src
+│       ├── Cargo.toml
+│       └── Xargo.toml
+├── scripts
+│   ├── deploy-devnet.sh
+│   ├── initialize.sh
+│   ├── simulate.sh
+│   ├── trigger-buyback.sh
+│   └── verify.sh
+├── tests
+│   ├── package.json
+│   ├── tsconfig.json
+│   └── usd1ball.test.ts
+├── Anchor.toml
+├── CONTRIBUTING.md
+├── Cargo.toml
+├── LICENSE
+├── NEXT_STEPS.md
+├── PROJECT_SUMMARY.md
+├── README.md
+├── REPOSITORY_TREE.txt
+├── package.json
+├── pnpm-workspace.yaml
+├── tsconfig.json
+└── turbo.json
+
+15 directories, 34 files
