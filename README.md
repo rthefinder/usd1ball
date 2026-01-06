@@ -1,4 +1,4 @@
-# usaball
+# usd1ball
 
 
 <img width="1799" height="598" alt="Capture d’écran 2026-01-03 à 00 58 17" src="https://github.com/user-attachments/assets/3fd79de9-f28d-432f-9c18-f5a5f5cca3f6" />
@@ -23,11 +23,11 @@
 
 ---
 
-## What is usaball?
+## What is usd1ball?
 
-usaball is a **flywheel-based token** that implements a self-reinforcing economic loop:
+usd1ball is a **flywheel-based token** that implements a self-reinforcing economic loop:
 
-1. 💸 **Transactions pay a 0.1% tax in USD1** (not in usaball tokens)
+1. 💸 **Transactions pay a 0.1% tax in USD1** (not in usd1ball tokens)
 2. 📊 **USD1 accumulates in a buyback pool** automatically
 3. 🎯 **When threshold is reached**, anyone can trigger a buyback
 4. 🔥 **Bought tokens are distributed**: 50% burned, 30% to LP, 20% rewards
@@ -52,7 +52,7 @@ usaball is a **flywheel-based token** that implements a self-reinforcing economi
 
 ```
 ┌─────────────────────────────────────────────┐
-│  1. User transfers usaball                │
+│  1. User transfers   usd1ball               │
 │     ↓                                       │
 │  2. 6% tax paid in USD1                     │
 │     ↓                                       │
@@ -62,7 +62,7 @@ usaball is a **flywheel-based token** that implements a self-reinforcing economi
 │     ↓                                       │
 │  5. Anyone triggers buyback                 │
 │     ↓                                       │
-│  6. Contract swaps USD1 → usaball         │
+│  6. Contract swaps USD1 → usd1ball          │
 │     ↓                                       │
 │  7. Distribute bought tokens:               │
 │     • 50% → BURNED 🔥                       │
@@ -85,11 +85,11 @@ usaball is a **flywheel-based token** that implements a self-reinforcing economi
 
 ## Repository Structure
 
-This is a **monorepo** containing all usaball components:
+This is a **monorepo** containing all usd1ball components:
 
 ```
-usaball/
-├── programs/usaball/       # Anchor smart contract (Rust)
+usd1ball/
+├── programs/usd1ball/       # Anchor smart contract (Rust)
 │   ├── src/
 │   │   ├── lib.rs           # Program entry point
 │   │   ├── state.rs         # Global state & events
@@ -130,8 +130,8 @@ usaball/
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/usaballl.git
-cd usaball
+git clone https://github.com/yourusername/usd1ball.git
+cd usd1ball
 
 # Install dependencies
 pnpm install
@@ -143,7 +143,7 @@ pnpm build
 ### Build Smart Contract
 
 ```bash
-cd programs/usaball
+cd programs/usd1ball
 anchor build
 ```
 
@@ -151,7 +151,7 @@ anchor build
 
 ```bash
 # Run Anchor tests
-cd programs/usaball
+cd programs/usd1ball
 anchor test
 
 # Run frontend in dev mode
@@ -166,7 +166,7 @@ pnpm dev
 solana-test-validator
 
 # Deploy to local (in another terminal)
-cd programs/usaball
+cd programs/usd1ball
 anchor deploy --provider.cluster localnet
 
 # Run simulation
@@ -199,7 +199,7 @@ anchor deploy --provider.cluster localnet
 solana config set --url mainnet-beta
 
 # Deploy
-cd programs/usaball
+cd programs/usd1ball
 anchor deploy --provider.cluster mainnet
 
 # CRITICAL: Verify security checklist
@@ -280,7 +280,7 @@ pnpm build
 Environment variables needed:
 ```env
 NEXT_PUBLIC_PROGRAM_ID=<your_program_id>
-NEXT_PUBLIC_usaball_MINT=<mint_address>
+NEXT_PUBLIC_usd1ball_MINT=<mint_address>
 NEXT_PUBLIC_RPC_ENDPOINT=https://api.devnet.solana.com
 ```
 
@@ -297,7 +297,7 @@ NEXT_PUBLIC_RPC_ENDPOINT=https://api.devnet.solana.com
    - Called once at deployment
 
 2. **`transfer`**
-   - Transfers usaballtokens
+   - Transfers usd1balltokens
    - Deducts USD1 tax from sender
    - Routes tax to buyback pool
    - Updates pool balance
@@ -305,7 +305,7 @@ NEXT_PUBLIC_RPC_ENDPOINT=https://api.devnet.solana.com
 3. **`trigger_buyback`**
    - Permissionless (anyone can call)
    - Checks threshold is met
-   - Swaps USD1 for usaball
+   - Swaps USD1 for usd1ball
    - Distributes: burn, LP, rewards
    - Emits events
 
@@ -336,7 +336,7 @@ All major actions emit events:
 ### Unit Tests
 
 ```bash
-cd programs/usaball
+cd programs/usd1ball
 anchor test
 ```
 
@@ -420,8 +420,8 @@ We welcome contributions! Areas to help:
 
 ```bash
 # Fork and clone
-git clone https://github.com/yourusername/usaball.git
-cd usaball
+git clone https://github.com/yourusername/usd1ball.git
+cd usd1ball
 
 # Create branch
 git checkout -b feature/your-feature
@@ -474,16 +474,16 @@ git push origin feature/your-feature
 
 - **Twitter**: [@rthefinder]([https://twitter.com/rthefinder](https://x.com/rthefinder))
 
-- **GitHub**: [Issues & Discussions](https://github.com/yourusername/usaball)
+- **GitHub**: [Issues & Discussions](https://github.com/yourusername/usd1ball)
 
 ---
 
 ## FAQ
 
-**Q: Is usaball a good investment?**  
-A: No. usaball is a meme coin experiment. Not financial advice. High risk.
+**Q: Is usd1ball a good investment?**  
+A: No. usd1ball is a meme coin experiment. Not financial advice. High risk.
 
-**Q: How do I buy usaball?**  
+**Q: How do I buy usd1ball?**  
 A: After deployment, available on Solana DEXs with USD1 pairs.
 
 **Q: What happens to the burned tokens?**  
@@ -527,7 +527,7 @@ Inspired by:
 
 ## Final Notes
 
-usaball is an **experiment in deterministic tokenomics**:
+usd1ball is an **experiment in deterministic tokenomics**:
 
 ✅ **What it IS:**
 - A meme coin with transparent mechanics
@@ -547,5 +547,5 @@ usaball is an **experiment in deterministic tokenomics**:
 
 **Built with transparency. Driven by determinism. Powered by community.**
 
-**usaball** - Because sometimes the best strategy is a simple, predictable loop.
+**usd1ball** - Because sometimes the best strategy is a simple, predictable loop.
 <img width="1024" height="1024" alt="Gemini_Generated_Image_qsepfeqsepfeqsep" src="https://github.com/user-attachments/assets/c392d672-b668-4613-93a9-4312eaa9a49a" />
